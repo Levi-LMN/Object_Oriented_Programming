@@ -32,7 +32,7 @@ This repository is my personal space for growth and education. I encourage you t
 
 ## Let's Connect
 
-If you're also passionate about OOP in Python or have any questions, feel free to connect with me. You can find me on GitHub, or drop me a message at [your-email@example.com].
+If you're also passionate about OOP in Python or have any questions, feel free to connect with me. You can find me on GitHub, or drop me a message at [Mukuhalevi@gmail.com].
 
 ## Getting Started
 
