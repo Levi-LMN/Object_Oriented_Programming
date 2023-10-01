@@ -1,4 +1,4 @@
-##Week 3: Conditional Statements, Boolean Logic, and Comparison Operators
+**Week 3: Conditional Statements, Boolean Logic, and Comparison Operators**
 1. Conditional Statements (if, elif, else)
 Conditional statements in Python are used to make decisions based on the evaluation of conditions. The basic syntax includes if, elif (short for "else if"), and else.
 
