@@ -3,7 +3,7 @@ Week 3: Conditional Statements, Boolean Logic, and Comparison Operators
 Conditional statements in Python are used to make decisions based on the evaluation of conditions. The basic syntax includes if, elif (short for "else if"), and else.
 
 Example:
-``
+```
 # Conditional statement with if, elif, and else
 x = 10
 
@@ -13,7 +13,7 @@ elif x == 0:
     print("x is zero.")
 else:
     print("x is negative.")
-``
+```
 In this example:
 
 If x is greater than 0, it prints "x is positive."
@@ -23,7 +23,7 @@ If x is negative, it prints "x is negative."
 Boolean operators (and, or, not) are used to combine conditional statements and perform logical operations.
 
 Example:
-``
+```
 # Boolean logic operators
 is_sunny = True
 is_warm = False
@@ -34,7 +34,7 @@ elif is_sunny or is_warm:
     print("It's either sunny or warm.")
 else:
     print("It's neither sunny nor warm.")
-
+```
 In this example:
 
 and: True if both conditions are true.
@@ -44,7 +44,7 @@ not: True if the condition is false.
 Comparison operators are used to compare values and return a boolean result (True or False).
 
 Examples:
-``
+```
 # Comparison operators
 a = 5
 b = 10
@@ -53,7 +53,7 @@ print(a < b)  # Output: True
 print(a >= b)  # Output: False
 print(a == b)  # Output: False
 print(a != b)  # Output: True
-``
+```
 
 
 In this example:
