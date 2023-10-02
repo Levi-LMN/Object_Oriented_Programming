@@ -19,7 +19,7 @@ In this example:
 If x is greater than 0, it prints "x is positive."
 If x is equal to 0, it prints "x is zero."
 If x is negative, it prints "x is negative."
-2. Boolean Logic (and, or, not)
+**2. Boolean Logic (and, or, not)**
 Boolean operators (and, or, not) are used to combine conditional statements and perform logical operations.
 
 Example:
@@ -40,7 +40,7 @@ In this example:
 and: True if both conditions are true.
 or: True if at least one condition is true.
 not: True if the condition is false.
-3. Comparison Operators (<, <=, >, >=, ==, !=)
+**3. Comparison Operators (<, <=, >, >=, ==, !=)**
 Comparison operators are used to compare values and return a boolean result (True or False).
 
 Examples:
