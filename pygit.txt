@@ -25,8 +25,7 @@ If you haven't done so already, download the pygit script to your local machine.
 Make the Script Executable:
 Navigate to the directory containing the pygit script and make it executable:
 
-bash
-Copy code
+
 chmod +x pygit
 Add Script Directory to PATH (Optional but Recommended):
 For convenient access, add the directory containing the pygit script to your system's PATH. This step allows you to run the script from any location in the terminal.
@@ -65,34 +64,29 @@ If you haven't done so already, download the pygit script to your local machine.
 Make the Script Executable:
 Navigate to the directory containing the pygit script and make it executable:
 
-bash
-Copy code
+
 chmod +x pygit
 Add Script Directory to PATH (Optional but Recommended):
 For convenient access, add the directory containing the pygit script to your system's PATH. This step allows you to run the script from any location in the terminal.
 
 Open your shell profile file (e.g., .bashrc or .zshrc):
 
-bash
-Copy code
+
 nano ~/.bashrc
 Add the following line at the end of the file:
 
-bash
-Copy code
+
 export PATH="/path/to/script/directory:$PATH"
 Replace "/path/to/script/directory" with the actual path to the directory containing the pygit script.
 
 Save and exit the file, then apply the changes:
 
-bash
-Copy code
+
 source ~/.bashrc
 Run the Script:
 You can now use the pygit script from anywhere in the terminal:
 
-bash
-Copy code
+
 pygit "Your commit message goes here"
 Replace "Your commit message goes here" with your actual commit message.
 
