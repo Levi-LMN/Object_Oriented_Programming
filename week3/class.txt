@@ -1,0 +1,42 @@
+Week 4: Loops, Ranges, and List Comprehensions
+1. Loops (for and while)
+Loops are used to repeatedly execute a block of code. Python supports for loops and while loops.
+
+Example of a for loop:
+
+# Using for loop to iterate through a sequence
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+
+Example of a while loop:
+
+
+# Using while loop to repeat a block of code until a condition is met
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+2. Ranges
+range() is a built-in function that generates a sequence of numbers. It's often used with for loops to iterate a specific number of times.
+
+Example:
+
+
+# Using range to generate a sequence of numbers
+for num in range(5):
+    print(num)  # Outputs: 0, 1, 2, 3, 4
+3. List Comprehensions
+List comprehensions provide a concise way to create lists in Python.
+
+Example:
+
+
+# Using list comprehension to create a new list
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [num ** 2 for num in numbers]
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+In this example, list comprehension is used to create a new list squared_numbers where each element is the square of the corresponding element in the numbers list.
+
+Understanding loops, ranges, and list comprehensions allows you to automate repetitive tasks and manipulate data efficiently. Practice using loops and experimenting with list comprehensions to enhance your programming skills.
