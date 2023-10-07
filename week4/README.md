@@ -17,12 +17,20 @@ Anagram Check: Implement a function to check if two strings are anagrams of each
 ```
 # Weekly Questions
 ## Questions:
-Explain the basic differences between Python list and tuple.  
+Explain the basic differences between Python list and tuple.
+  
 What is the purpose of Python's range() function?  
+
 How does exception handling work in Python? Provide an example.  
+
 Explain the concept of a generator in Python.  
+
 What is the difference between deep copy and shallow copy in Python?  
+
 How can you handle file input/output operations in Python?  
+
 What are decorators in Python and how are they used?  
+
 Explain the Global Interpreter Lock (GIL) in Python.  
+
 What is the purpose of the __init__ method in Python classes?  
