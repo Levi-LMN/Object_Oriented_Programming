@@ -1,0 +1,13 @@
+Write a Python function called is_palindrome that takes a string as input and returns True if the string is a palindrome (reads the same backward as forward), and False otherwise. The function should ignore spaces, capitalization, and punctuation when checking if a string is a palindrome.
+
+For example:
+
+"A man, a plan, a canal, Panama!" is a palindrome.
+"Race car" is a palindrome.
+"Hello, World!" is not a palindrome.
+Your function should be able to handle both cases and return the correct results.
+
+Constraints:
+
+The input string will have at most length 10^5.
+You can assume that the input only contains printable ASCII characters.
