@@ -1,4 +1,4 @@
-Description:
+# Description
 Hey there! 👋 Welcome to my personal GitHub repository, where I'll be documenting my learning adventure in the Object-Oriented Programming (OOP) unit at school. Here, you'll find a glimpse into my journey as I explore the fascinating world of OOP using Python.
 
 📚 What's Inside:
