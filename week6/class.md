@@ -1,6 +1,6 @@
 # WEEK 6
  
-Create two files main.py and constant .py
+Create two files: main.py and constant .py
 
 in constant.py:
 ```
