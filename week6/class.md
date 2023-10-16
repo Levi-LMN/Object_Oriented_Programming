@@ -53,7 +53,7 @@ print(a + b)
 ```
 
 
-*Assignment operator '='*
+*Assignment operator '='*  
 msg1 =15
 msg2 = 20
 
