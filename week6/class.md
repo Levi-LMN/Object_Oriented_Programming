@@ -22,3 +22,20 @@ A named space in the computers memory that can store different values at differe
 
 ## constants
 A type of variable whose value is fixed
+
+## Aray 
+A type of variable that stores multiple values of the same data type
+
+```
+#list literal
+fruits = ["apple", "mango", "orange"]
+print(fruits)
+
+# tuple literal
+numbers = (1,2,3)
+print(numbers)
+
+#dictionary literal
+alphabets = {'a':'apple', 'b':'ball', 'c':'cat'}
+print(alphabets)
+```
