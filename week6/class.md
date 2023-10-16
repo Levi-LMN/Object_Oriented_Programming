@@ -45,6 +45,7 @@ print(alphabets)
 ```
 
 ### value input
+```
 a= int (input("Enter value of number one:\n"))
 b= int (input("Enter value of number two:\n"))
 print(a + b)
@@ -53,3 +54,7 @@ print(a + b)
 
 
 *Assignment operator '='*
+msg1 =15
+msg2 = 20
+
+- it works from right to left
