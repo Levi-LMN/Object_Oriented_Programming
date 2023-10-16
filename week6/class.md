@@ -26,19 +26,25 @@ A type of variable whose value is fixed
 ## Aray 
 A type of variable that stores multiple values of the same data type
 
+
+### list literal
 ```
-#list literal
 fruits = ["apple", "mango", "orange"]
 print(fruits)
+```
 
-# tuple literal
+### tuple literal
+```
 numbers = (1,2,3)
 print(numbers)
-
-#dictionary literal
+```
+### dictionary literal
+```
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'}
 print(alphabets)
+```
 
+### value input
 a= int (input("Enter value of number one:\n"))
 b= int (input("Enter value of number two:\n"))
 print(a + b)
