@@ -50,3 +50,6 @@ b= int (input("Enter value of number two:\n"))
 print(a + b)
 
 ```
+
+
+*Assignment operator '='*
