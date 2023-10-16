@@ -38,4 +38,9 @@ print(numbers)
 #dictionary literal
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'}
 print(alphabets)
+
+a= int (input("Enter value of number one:\n"))
+b= int (input("Enter value of number two:\n"))
+print(a + b)
+
 ```
