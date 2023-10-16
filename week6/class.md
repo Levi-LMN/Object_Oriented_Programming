@@ -54,7 +54,7 @@ print(a + b)
 
 
 *Assignment operator '='*  
-msg1 =15
+msg1 =15  
 msg2 = 20  
 
 - -it works from right to left
