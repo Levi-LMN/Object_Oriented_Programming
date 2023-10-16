@@ -3,7 +3,7 @@
 Comments 
 Create two files main.py and constant .py
 
-in main.py:
+in constant.py:
 ```
 #declare constants
 PI = 3.14159
