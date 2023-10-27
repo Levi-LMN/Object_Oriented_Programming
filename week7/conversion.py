@@ -49,3 +49,25 @@ if all(bit in '01' for bit in binary_number):
 else:
     print("Invalid input. Please enter a valid binary number.")
 
+
+
+
+
+#Write a Python program that calculates the Body Mass Index (BMI) of a person. Prompt the user to enter their weight in kilograms and height in meters. 
+
+# Prompt the user to enter weight in kilograms and height in meters
+weight_kg = float(input("Enter your weight in kilograms: "))
+height_m = float(input("Enter your height in meters: "))
+
+# Calculate BMI using the formula: BMI = weight / (height^2)
+bmi = weight_kg / (height_m ** 2)
+
+# Round the BMI to two decimal places
+bmi = round(bmi, 2)
+
+# Print the calculated BMI
+print(f"Your Body Mass Index (BMI) is: {bmi}")
+
+
+
+
