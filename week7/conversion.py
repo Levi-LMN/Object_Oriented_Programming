@@ -29,4 +29,23 @@ seconds %= 60
 # Print the equivalent time in hours, minutes, and seconds
 print(f"Equivalent time: {hours} hours, {minutes} minutes, and {seconds} seconds.")
 
+def binary_to_decimal(binary_string):
+    decimal_num = 0
+    binary_string = binary_string[::-1]  # Reverse the binary string for easier calculation
+    
+    for i in range(len(binary_string)):
+        if binary_string[i] == '1':
+            decimal_num += 2 ** i
+    
+    return decimal_num
+
+# Prompt the user to enter a binary number
+binary_number = input("Enter a binary number: ")
+
+# Check if the input is a valid binary number (contains only 0s and 1s)
+if all(bit in '01' for bit in binary_number):
+    decimal_equivalent = binary_to_decimal(binary_number)
+    print(f"The decimal equivalent of {binary_number} is {decimal_equivalent}.")
+else:
+    print("Invalid input. Please enter a valid binary number.")
 
