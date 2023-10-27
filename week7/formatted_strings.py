@@ -18,3 +18,10 @@ eur = int(amount) * 0.85
 amt = f'${amount} is equal to {eur} Euros'
 print(amt)
 
+
+
+
+#Ask the user for a string and a number, and then print the string repeated that many times using formatted strings.
+strng = input('Enter a string: ')
+num = int(input("enter a number: "))
+print("the repeated string is", strng * num)
