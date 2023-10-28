@@ -25,3 +25,12 @@ print(amt)
 strng = input('Enter a string: ')
 num = int(input("enter a number: "))
 print("the repeated string is", strng * num)
+
+
+
+
+#Create a program that asks the user for a temperature in Celsius and converts it to Fahrenheit using a formatted string. The conversion formula is: F = (C * 9/5) + 32.
+temp_cel = input("Enter the temperature in Celsius: ")
+temp_f = (int(temp_cel) * 9/5) + 32
+print(f'{temp_cel} degrees celsius is equal to  {temp_f}F')
+
