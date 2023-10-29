@@ -162,23 +162,31 @@ numbers.copy() # returns a copy of the list
 ### Tuples
 They are like read-only lists. We use them to store a list of items. But once we
 define a tuple, we cannot add or remove items or change the existing items.
+```
 coordinates = (1, 2, 3)
+```
 We can unpack a list or a tuple into separate variables:
+```
 x, y, z = coordinates
-Dictionaries
+```
+## Dictionaries
 We use dictionaries to store key/value pairs.
+```
 customer = {
  “name”: “John Smith”,
  “age”: 30,
  “is_verified”: True
 }
+```
 We can use strings or numbers to define keys. They should be unique. We can use
 any types for the values.
+```
 customer[“name”] # returns “John Smith”
 customer[“type”] # throws an error
 customer.get(“type”, “silver”) # returns “silver”
 customer[“name”] = “new name”
-Functions
+```
+# Functions
 We use functions to break up our code into small chunks. These chunks are easier
 to read, understand and maintain. If there are bugs, it’s easier to find bugs in a
 small chunk than the entire program. We can also re-use these chunks.
