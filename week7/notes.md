@@ -259,6 +259,7 @@ creating new objects. We use it to initialize our objects.
 Inheritance is a technique to remove code duplication. We can create a base class
 to define the common methods and then have other classes inherit these methods.
 class Mammal:
+```
  def walk(self):
  print(“walk”)
 class Dog(Mammal):
@@ -267,19 +268,26 @@ class Dog(Mammal):
 dog = Dog()
 dog.walk() # inherited from Mammal
 dog.bark() # defined in Dog
-Modules
-A module is a file with some Python code. We use modules to break up our
-program into multiple files. This way, our code will be better organized. We won’t
+```
+# Modules
+A module is a file with some Python code.  
+We use modules to break up our
+program into multiple files.  
+This way, our code will be better organized. We won’t
 have one gigantic file with a million lines of code in it!
 There are 2 ways to import modules: we can import the entire module, or specific
 objects in a module.
-# importing the entire converters module
+## importing the entire converters module
+```
 import converters
 converters.kg_to_lbs(5)
-# importing one function in the converters module
+```
+## importing one function in the converters module
+```
 from converters import kg_to_lbs
 kg_to_lbs(5)
-Packages
+```
+# Packages
 A package is a directory with __init__.py in it. It can contain one or more
 modules.
 # importing the entire sales module
