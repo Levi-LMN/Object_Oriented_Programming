@@ -226,6 +226,7 @@ Exceptions are errors that crash our programs. They often happen because of bad
 input or programming errors. It’s our job to anticipate and handle these exceptions
 to prevent our programs from cashing.
 try:
+```
  age = int(input(‘Age: ‘))
  income = 20000
  risk = income / age
@@ -234,24 +235,27 @@ except ValueError:
  print(‘Not a valid number’)
 except ZeroDivisionError:
  print(‘Age cannot be 0’)
-Classes
-We use classes to define new types.
-class Point:
+```
+# Classes
+We use classes to define new types.  
+```
  def __init__(self, x, y):
  self.x = x
  self.y = y
  def move(self):
  print(“move”)
-
-When a function is part of a class, we refer to it as a method.
+```
+When a function is part of a class, we refer to it as a method.  
 Classes define templates or blueprints for creating objects. An object is an instance
 of a class. Every time we create a new instance, that instance follows the structure
 we define using the class.
+```
 point1 = Point(10, 5)
 point2 = Point(2, 4)
+```
 __init__ is a special method called constructor. It gets called at the time of
 creating new objects. We use it to initialize our objects.
-Inheritance
+# Inheritance
 Inheritance is a technique to remove code duplication. We can create a base class
 to define the common methods and then have other classes inherit these methods.
 class Mammal:
