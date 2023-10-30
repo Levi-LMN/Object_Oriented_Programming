@@ -290,27 +290,33 @@ kg_to_lbs(5)
 # Packages
 A package is a directory with __init__.py in it. It can contain one or more
 modules.
-# importing the entire sales module
+## importing the entire sales module
 from ecommerce import sales
 sales.calc_shipping()
-# importing one function in the sales module
+## importing one function in the sales module
+```
 from ecommerce.sales import calc_shipping
 calc_shipping()
-Python Standard Library
+```
+# Python Standard Library
 Python comes with a huge library of modules for performing common tasks such as
 sending emails, working with date/time, generating random values, etc.
-Random Module
+## Random Module
+```
 import random
 random.random() # returns a float between 0 to 1
 random.randint(1, 6) # returns an int between 1 to 6
 members = [‘John’, ‘Bob’, ‘Mary’]
 leader = random.choice(members) # randomly picks an item
-Pypi
+```
+## Pypi
 Python Package Index (pypi.org) is a directory of Python packages published by
 Python developers around the world. We use pip to install or uninstall these
 packages.
+```
 pip install openpyxl
 pip uninstall openpyxl
+```
 Want to Become a Python Expert?
 If you’re serious about learning Python and getting a job as a Python developer, I
 highly encourage you to enroll in my Complete Python Course. Don’t waste your
