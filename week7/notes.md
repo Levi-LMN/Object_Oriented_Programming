@@ -317,17 +317,4 @@ packages.
 pip install openpyxl
 pip uninstall openpyxl
 ```
-Want to Become a Python Expert?
-If you’re serious about learning Python and getting a job as a Python developer, I
-highly encourage you to enroll in my Complete Python Course. Don’t waste your
-time following disconnected, outdated tutorials. My Complete Python Course has
-everything you need in one place:
-• 12 hours of HD video
-• Unlimited access - watch it as many times as you want
-• Self-paced learning - take your time if you prefer
-• Watch it online or download and watch offline
-• Certificate of completion - add it to your resume to stand out
-• 30-day money-back guarantee - no questions asked
-The price for this course is $149 but the first 200 people who have downloaded this
-cheat sheet can get it for $14.99 using the coupon code CHEATSHEET:
-http://bit.ly/complete-python-course
+
