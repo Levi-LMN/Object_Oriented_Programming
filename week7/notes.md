@@ -1,9 +1,6 @@
 # Python
-## Cheat Sheet
 
-
-
-
+--This are my notes for the python course
 # Variables
 We use variables to temporarily store data in computer’s memory.  
 ```
