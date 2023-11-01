@@ -1,0 +1,10 @@
+ Write a python program that captures student number, name, unit code, unit name CAT and exam Qnark. The CAT and exam mark should be added together to get a final score. Based on the final score, the program should determine the grade of the student as follows: 
+
+Mark	Grade 
+70-100	A
+ 60-69  B
+56-59  	C
+50-55 	D
+Below 50 F 
+
+The program should display the above information in a tabular format. 
