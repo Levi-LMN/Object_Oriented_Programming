@@ -7,15 +7,19 @@ import requests
 # Quotable API endpoint for random quotes
 QUOTABLE_API_ENDPOINT = 'https://api.quotable.io/random'
 
-# Function to fetch a random quote from the Quotable API
+# Function to fetch a random quote from the Quotable API and format the commit message
 def fetch_random_quote():
     response = requests.get(QUOTABLE_API_ENDPOINT)
     if response.status_code == 200:
         quote_data = response.json()
-        return f'"{quote_data["content"]}" - {quote_data["author"]}'
+        quote_content = quote_data["content"]
+        # Format the commit message without quotes and author
+        commit_message = f"{quote_content}"
+        return commit_message
     else:
         print(f"Failed to fetch random quote: {response.text}")
         sys.exit(1)
+
 
 # Main function
 def main():
