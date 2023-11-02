@@ -1,0 +1,164 @@
+CONTROL STRUCTURES
+These are statements that determine the flow of execution of your code.
+They fall in 3 categories:
+1). Sequence/sequential
+2). Branching/Decision-making/Selection
+3). Looping/Iteration
+
+
+1). Sequence: Default mode of execution where each line executes once. Execution flows from top to bottom.
+
+2). Branching/Decision-making/Selection
+	a) if statement
+	b) if...else statement
+	c) if...elif...else statement
+	d) match-case statement (Python 3.10 and above)
+
+3). Looping/Iteration
+	a) while loop
+	b) for loop
+
+
+Example 1: Python if statement
+number = 10
+# check if number is greater than 0
+if number > 0:
+    print('Number is positive.')
+print('The if statement is easy')
+
+
+Example 2: Python if...else statement
+number = 10
+if number > 0:
+    print('Positive number')
+else:
+    print('Negative number')
+print('This statement is always executed')
+
+
+Example 3: Python if...elif...else statement
+number = 0
+if number > 0:
+    print("Positive number")
+elif number == 0:
+    print('Zero')
+else:
+    print('Negative number')
+print('This statement is always executed')
+
+
+Example 4: Python Nested if Statement
+number = 5
+# outer if statement
+if (number >= 0):
+    # inner if statement
+    if number == 0:
+      print('Number is 0')    
+    # inner else statement
+    else:
+        print('Number is positive')
+# outer else statement
+else:
+    print('Number is negative')
+# Output: Number is positive
+
+Example 5: The match-case statement (Python3.10 onwards)
+lang = input("What's the programming language you want to learn? ")
+match lang:
+    case "JavaScript":
+        print("You can become a web developer.")
+
+    case "Python":
+        print("You can become a Data Scientist")
+
+    case "PHP":
+        print("You can become a backend developer")
+    
+    case "Solidity":
+        print("You can become a Blockchain developer")
+
+    case "Java":
+        print("You can become a mobile app developer")
+    case _:
+        print("The language doesn't matter, what matters is solving problems.")
+
+THE FOR LOOP
+The syntax of a for loop is:
+for val in sequence:
+    # statement(s)
+
+Where val accesses each item of sequence on each iteration. The loop continues until we reach the last item in the sequence.
+
+Example 6: The for loop
+languages = ['Swift', 'Python', 'Go', 'JavaScript']
+# run a loop for each item of the list
+for y in languages:
+    print(y)
+
+Example 7: Loop Through a String
+for x in 'Python':
+    print(x)
+A range is a series of values between two numeric intervals.
+
+THE RANGE() FUNCTION
+We use Python's built-in function range() to define a range of values. For example,
+values = range(4)
+Here, 4 inside range() defines a range containing values 0, 1, 2, 3.
+
+Example 8: for loop to iterate over a range
+# use of range() to define a range of values
+values = range(4)
+# iterate from i = 0 to i = 3
+for i in values:
+    print(i)
+
+PYTHON FOR LOOP WITH ELSE
+A for loop can have an optional else block. The else part is executed when the loop is exhausted (after the loop iterates through every item of a sequence). 
+
+Example 9: Python for loop with else
+digits = [0, 1, 5]
+for i in digits:
+    print(i)
+else:
+    print("No items left.")
+
+
+PYTHON WHILE LOOP
+Python while loop is used to run a block code until a certain condition is met.
+
+The syntax of while loop is:
+while condition:
+    # body of while loop
+
+Example 10: Python while Loop
+# program to display numbers from 1 to 5
+# initialize the variable
+i = 1
+n = 5
+# while loop from i = 1 to 5
+while i <= n:
+    print(i)
+    i = i + 1
+
+Example 11: Python while Loop
+# program to calculate the sum of numbers
+# until the user enters zero
+total = 0
+number = int(input('Enter a number: '))
+# add numbers until number is zero
+while number != 0:
+    total += number    # total = total + number
+    
+    # take integer input again
+    number = int(input('Enter a number: '))    
+print('total =', total)
+
+PYTHON WHILE LOOP WITH ELSE
+In Python, a while loop may have an optional else block.
+Here, the else part is executed after the condition of the loop evaluates to False.
+counter = 0
+while counter < 3:
+    print('Inside loop')
+    counter = counter + 1
+else:
+    print('Inside else')
