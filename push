@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+
+import sys
+import subprocess
+import requests
+
+# Quotable API endpoint for random quotes
+QUOTABLE_API_ENDPOINT = 'https://api.quotable.io/random'
+
+# Function to fetch a random quote from the Quotable API
+def fetch_random_quote():
+    response = requests.get(QUOTABLE_API_ENDPOINT)
+    if response.status_code == 200:
+        quote_data = response.json()
+        return f'"{quote_data["content"]}" - {quote_data["author"]}'
+    else:
+        print(f"Failed to fetch random quote: {response.text}")
+        sys.exit(1)
+
+# Main function
+def main():
+    # Fetch a random quote as the commit message
+    commit_message = fetch_random_quote()
+
+    try:
+        # Run git add, commit, and push commands
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("Changes successfully committed and pushed to remote repository.")
+    except subprocess.CalledProcessError as e:
+        print("An error occurred:", e)
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
+
