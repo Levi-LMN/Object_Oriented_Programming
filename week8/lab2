@@ -1,0 +1,65 @@
+Types of Python Operators
+    Arithmetic operators
+    Assignment Operators
+    Comparison Operators
+    Logical Operators
+    Bitwise Operators
+    Special Operators
+
+
+Example 1: Arithmetic Operators in Python
+a = 7
+b = 2
+# addition
+print ('Sum: ', a + b)  
+# subtraction
+print ('Subtraction: ', a - b)   
+# multiplication
+print ('Multiplication: ', a * b)  
+# division
+print ('Division: ', a / b) 
+# floor division
+print ('Floor Division: ', a // b)
+# modulo
+print ('Modulo: ', a % b)  
+# a to the power b
+print ('Power: ', a ** b)   
+
+
+
+Example 2: Assignment Operators
+# assign 10 to a
+a = 10
+# assign 5 to b
+b = 5 
+# assign the sum of a and b to a
+a += b      # a = a + b
+print(a)
+
+
+Example 3: Comparison Operators
+a = 5
+b = 2
+# equal to operator
+print('a == b =', a == b)
+# not equal to operator
+print('a != b =', a != b)
+# greater than operator
+print('a > b =', a > b)
+# less than operator
+print('a < b =', a < b)
+# greater than or equal to operator
+print('a >= b =', a >= b)
+# less than or equal to operator
+print('a <= b =', a <= b)
+
+
+
+Example 4: Logical Operators
+# logical AND
+print(True and True)     # True
+print(True and False)    # False
+# logical OR
+print(True or False)     # True
+# logical NOT
+print(not True)          # False
