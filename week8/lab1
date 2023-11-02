@@ -1,0 +1,50 @@
+Example1:
+# assign a value to msg variable
+msg = 'Hello there'
+print(msg)
+
+Example2
+a, b, c = 5, 3.2, 'Hello'
+print(a)  # prints 5
+print(b)  # prints 3.2
+print(c)  # prints Hello
+
+Example3
+msg1 = msg2  = 'How is Python?'
+
+print(msg1)  # prints How is Python?
+print(msg2)  # prints How is Python?
+
+Example4
+Create a constant.py:
+# declare constants 
+PI = 3.14
+GRAVITY = 9.8
+
+Create a main.py:
+# import constant file we created above
+import constant
+print(constant.PI) # prints 3.14
+print(constant.GRAVITY) # prints 9.8
+
+Example5
+Python Literals
+result1 = True 
+some_string = 'Python is fun'
+value = None
+
+# list literal
+fruits = ["apple", "mango", "orange"] 
+print(fruits)
+
+# tuple literal
+numbers = (1, 2, 3) 
+print(numbers)
+
+# dictionary literal
+alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} 
+print(alphabets)
+
+# set literal
+vowels = {'a', 'e', 'i' , 'o', 'u'} 
+print(vowels)
