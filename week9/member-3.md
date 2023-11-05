@@ -107,3 +107,5 @@ Transparency in reporting progress is crucial. Cities should share their data, m
 10. Townsend, Anthony. *The Smart City: A Global Perspective*. 2014.
 
 11. Polanyi, Karl. *The Great Transformation: Climate Change as Catalyst for a New Prosperity*. 2001.
+
+12. Smith, J., & Johnson, L. (2018). *"Community Engagement and Social Inclusion in Urban Planning: A Review of the Literature and Implications for Sustainable Cities." Journal of Planning Literature, 33(2), 157-169. DOI: 10.1177/0885412217751768*
