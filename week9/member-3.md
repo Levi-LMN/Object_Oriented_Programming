@@ -84,7 +84,6 @@ Cities can benchmark their progress by comparing their indicators and initiative
 Transparency in reporting progress is crucial. Cities should share their data, methodologies, and findings with the public, ensuring accountability and building trust. Transparent reporting allows citizens to understand the impact of urban development efforts and hold policymakers accountable for their commitments to sustainability goals.
 
 # References
-*Reference: Smith, J., & Johnson, L. (2018). "Community Engagement and Social Inclusion in Urban Planning: A Review of the Literature and Implications for Sustainable Cities." Journal of Planning Literature, 33(2), 157-169. DOI: 10.1177/0885412217751768*
 
 1. Ramani, Shyama V., and Hiroshan Hettiarachchi. *Moving Forward with the Circular Economy (Towards Sustainable Futures)*. 2023.
 
