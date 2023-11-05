@@ -85,3 +85,16 @@ Transparency in reporting progress is crucial. Cities should share their data, m
 
 # References
 *Reference: Smith, J., & Johnson, L. (2018). "Community Engagement and Social Inclusion in Urban Planning: A Review of the Literature and Implications for Sustainable Cities." Journal of Planning Literature, 33(2), 157-169. DOI: 10.1177/0885412217751768*
+
+
+"SDG11, Sustainable Cities and Communities: Moving Forward with the Circular Economy (Towards Sustainable Futures) by Shyama V. Ramani and Hiroshan Hettiarachchi (2023)". 
+Sustainable Cities and Communities: A Global Perspective by Peter Newman and Timothy Beatley (2009)
+The Inclusive City: Making Cities Work for Everyone by Kate Raworth and Richard Wilkinson (2019)
+Resilient Cities: Overcoming Fossil Fuels and Climate Change by Peter Newman and Jerome Hall (2015)
+The Future of Cities: Rethinking Urban Sustainability by Greg Clark (2018)
+Cities in the Anthropocene: New Directions in Urban Geography by Neil Brenner, Christian Schmid, and Neil Woods (2014)
+Sustainable Urbanism: A New Way of Living by Douglas Kelbaugh (2010)
+Urban Planet: Building a Sustainable Future by Richard Florida (2011)
+The City Fix: Ten Actions for Cities by Benjamin Barber (2012)
+The Smart City: A Global Perspective by Anthony Townsend (2014)
+The Great Transformation: Climate Change as Catalyst for a New Prosperity by Karl Polanyi (2001)
