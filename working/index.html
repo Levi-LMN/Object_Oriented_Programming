@@ -1,0 +1,82 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator</title>
+</head>
+<body>
+
+<h1>OTP Generator</h1>
+
+<form id="otpForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="button" onclick="sendOTP()">Send OTP</button>
+
+    <label for="otp">OTP:</label>
+    <input type="text" id="otp" name="otp" required>
+    <button type="button" onclick="verifyOTP()">Verify OTP</button>
+</form>
+
+<script>
+    function sendOTP() {
+        var email = document.getElementById('email').value;
+
+        // Use fetch API to call the Flask endpoint for sending OTP
+        fetch('/send-otp', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams({
+                'email': email,
+            }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.success ? data.message : "Error sending OTP.");
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert("Error sending OTP.");
+        });
+    }
+
+   function verifyOTP() {
+    var email = document.getElementById('email').value;
+    var otp = document.getElementById('otp').value;
+
+    // Use fetch API to call the Flask endpoint for verifying OTP
+    fetch('/verify-otp', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams({
+            'email': email,
+            'otp': otp,
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Authentication successful, redirect to main.html
+            window.location.href = '/main';
+        } else {
+            // Handle authentication failure
+            alert("Error verifying OTP: " + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert("Error verifying OTP.");
+    });
+}
+
+</script>
+
+</body>
+</html>
