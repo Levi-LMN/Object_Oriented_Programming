@@ -1,5 +1,5 @@
 # len is used to find the length of a string
-course = 'Python for Beginners'
+course = 'python for Beginners'
 print(len(course))
 
 # upper is used to convert a string to uppercase
@@ -23,3 +23,6 @@ print('Python' in course) # returns boolean value which is true.It is case sensi
 
 # in is used to check if a character is in a string and returns boolean value while
 # find returns the index of the character
+
+# title is used to capitalize the first letter of each word in a string
+print(course.title())
